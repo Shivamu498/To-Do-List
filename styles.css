@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* background-image: url('./pic/glasses-1052023_1280.jpg ');
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-size:100vw 100vh; */
+    background-color: #ccc;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3193d4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* position: absolute; */
+    /* text-align: center;
+    justify-content: center; */
+    /* top: 5vh;
+    left: 35vw; */
+  }
+  
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #f53215;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: whitesmoke;
+    color: black;
+    transition: all 0.6s;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #d1f0e7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  li .delete-btn {
+    background-color: #ff3b3b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  li .delete-btn:hover {
+    background-color: #ff0000;
+  }
+  
+ #wrapper{
+  position: relative;
+ }
